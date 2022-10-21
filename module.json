@@ -72,7 +72,7 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/aszordev/adventure-oqueosangueesconde/raw/main/module.json",
-  "download": "https://github.com/aszordev/adventure-oqueosangueesconde/raw/main/aszor-adventure-o-que-o-sangue-esconde.zip",
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip",
   "id": "my-content-module"
 }
