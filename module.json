@@ -1,78 +1,63 @@
 {
-  "title": "My Content Module",
-  "description": "A collection of my content.",
-  "version": "1.0.0",
+  "title": "Aventura: O que o sangue esconde?",
+  "description": "Uma aventura original do cenário de Aszor adaptada para dnd 5e. De 4 a 5 jogadores entre nível 5 e 6.",
+  "version": "0.0.1",
   "authors": [
     {
-      "name": "Me",
+      "name": "Jooana D'art",
+      "flags": {}
+    },
+    {
+      "name": "Jooana D'art",
       "flags": {}
     }
   ],
   "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "9"
+    "minimum": "0.9",
+    "verified": "10"
   },
   "packs": [
     {
-      "name": "module-creatures",
-      "label": "Module Creatures",
-      "path": "packs/creatures.db",
+      "name": "aventura-o-que-o-sangue-esconde",
+      "label": "Aventura: O que o sangue esconde",
+      "path": "packs/aventura-o-que-o-sangue-esconde.db",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "inimigos-o-que-o-sangue-esconde",
+      "label": "Inimigos: O que o sangue esconde",
+      "path": "packs/inimigos-o-que-o-sangue-esconde.db",
       "type": "Actor",
       "system": "dnd5e",
       "private": false,
       "flags": {}
     },
+
     {
-      "name": "module-items",
-      "label": "Module Items",
-      "path": "packs/items.db",
-      "type": "Item",
+      "name": "mapa-o-que-o-sangue-esconde",
+      "label": "Mapa: O que o sangue esconde",
+      "path": "packs/mapa-o-que-o-sangue-esconde.db",
+      "type": "Scene",
       "system": "dnd5e",
       "private": false,
       "flags": {}
     },
+
     {
-      "name": "module-scenes",
-      "label": "Module Scenes",
-      "path": "packs/scenes.db",
-      "type": "Scene",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "module-journal-entries",
-      "label": "Module Journal Entries",
-      "path": "packs/journal-entries.db",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "module-macros",
-      "label": "Module Macros",
-      "path": "packs/macros.db",
-      "type": "Macro",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "module-roll-tables",
-      "label": "Module Roll Tables",
-      "path": "packs/roll-tables.db",
-      "type": "RollTable",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "module-playlists",
-      "label": "Module Playlists",
-      "path": "packs/playlists.db",
-      "type": "Playlist",
+      "name": "notas-o-que-o-sangue-esconde",
+      "label": "Notas: O que o sangue esconde",
+      "path": "packs/notas-o-que-o-sangue-esconde.db",
+      "type": "Journal Entry",
+      "system": "dnd5e",
       "private": false,
       "flags": {}
     }
+
   ],
   "manifest": "https://github.com/aszordev/adventure-oqueosangueesconde/raw/main/module.json",
   "download": "https://github.com/aszordev/adventure-oqueosangueesconde/raw/main/aszor-adventure-o-que-o-sangue-esconde.zip",
-  "id": "my-content-module"
+  "id": "aszor-adventure-o-que-o-sangue-esconde"
 }
