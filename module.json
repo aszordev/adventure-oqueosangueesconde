@@ -50,7 +50,7 @@
       "name": "notas-o-que-o-sangue-esconde",
       "label": "Notas: O que o sangue esconde",
       "path": "packs/notas-o-que-o-sangue-esconde.db",
-      "type": "Journal Entry",
+      "type": "JournalEntry",
       "system": "dnd5e",
       "private": false,
       "flags": {}
